@@ -1,6 +1,10 @@
 const Task = require('../models/Task')
 
 const TaskController = {
+  testServer(req, res) {
+    res.status(200).json('success');
+  },
+
   async createTask(req, res) {
     try {
       const newTask = new Task(req.body);
