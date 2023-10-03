@@ -1,4 +1,5 @@
 # Todo-Backend
+CI/CD with github via vercel
 
 ## Get Repository
 https://docs.github.com/en/repositories/creating-and-managing-repositories/cloning-a-repository
